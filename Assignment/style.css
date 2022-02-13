@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+.container{
+    max-width: 100vw;
+    margin: 0 60px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.menu ul{
+    margin: 0;
+}
+.menu ul li{
+    display: inline;
+    padding: 10px 0 10px 50px;
+}
+.menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #1D1B19;
+    line-height: 24px;
+    opacity: 0.8;
+}
+.menu ul li a:hover{
+    opacity: 1;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FF5300;
+}
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.banner-title-bottom{
+    position: absolute;
+    top: 70%;
+    display: flex;
+    align-items: center;
+}
+.banner h2{
+    font-size: 60px;
+    line-height: 70px;
+    word-spacing: 6px;
+    font-weight: bold;
+    position: absolute;
+    top: 12%;
+    right: 40%;
+}
+.banner-title i{
+    color: #FF5300;
+    font-size: 36px;
+}
+.banner-title span{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.banner-image{
+    width: 58vw;
+}
+.banner-image img{
+    width: 100%;
+}
+.banner-line{
+    border-bottom: 8px solid #FF5300;
+    width: 35vw;
+    position: absolute;
+    bottom: 5px;
+    right: 1px;
+}
+.tourism{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+    grid-gap: 75px;
+}
+.tourism-item i{
+    font-size: 40px;
+}
+.tourism-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tourism-item-information h5{
+    margin: 0;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FF5300;
+}
+.tourism-item-information p{
+    margin: 5px 0;
+    font-size: 18px;
+    color: #352F2B;
+    font-weight: bold;
+}
+.perfectChoice{
+    margin-top: 159px;
+    display: grid;
+    grid-template-columns: 440px auto;
+    grid-gap: 30px;
+}
+.perfectChoice-title h3{
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+}
+.perfectChoice-title p{
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+.perfectChoice-title button{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    background: #FF5300;
+    color: #fff;
+    padding: 20px 42px;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.perfectChoice-slider{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    position: relative;
+}
+.perfectChoice-slider-item img{
+    border-radius: 10px;
+    width: 100%;
+}
+.perfectChoice-slider-item{
+    position: relative;
+    max-width: 220px;
+}
+.perfectChoice-slider-item-news h5{
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    margin: 0;
+}
+.perfectChoice-slider-item-news i{
+    color: #FFC107;
+}
+.perfectChoice-slider-item-news{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+.perfectChoice-slider-next{
+    font-size: 36px;
+    background: #FF5300;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+.perfectChoice-slider-next i{
+    margin-top: 7px;
+}
+.topExperiences{
+    margin-top: 110px;
+}
+.topExperiences h3{
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+}
+.
