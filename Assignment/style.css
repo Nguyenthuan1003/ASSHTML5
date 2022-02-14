@@ -182,4 +182,127 @@ header{
     line-height: 56px;
     text-align: center;
 }
-.
+.topExperiences-center{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    margin: 20px 50px;
+}
+.topExperiences-item{
+    position: relative;
+}
+.topExperiences-image{
+    position: relative;
+}
+.topExperiences-image img{
+    border-radius: 10px;
+}
+.topExperiences-image-first{
+    position: absolute;
+}
+.topExperiences-image-first:hover{
+    display: none;
+}
+.topExperiences-item-title h4{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    padding-right: 20px;
+}
+.topExperiences-item-title p{
+    color: #FFD4BF;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    margin: 0;
+}
+.topExperiences-item-title i{
+    color: #FFC107;
+    font-size: 12px;
+}
+.destinationsNear h3{
+    font-size: 48px;
+    line-height: 58px;
+    margin-top: 110px;
+    text-align: center;
+}
+.destinationsNear-row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.destinationsNear-columns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.destinationsNear-columns h5{
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+}
+.destinationsNear-columns i{
+    font-size: 12px;
+    color:#FFC107;
+}
+.bestPlaces{
+    margin: 0 30px;
+}
+.bestPlaces h3{
+    margin-top: 110px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    text-align: center;
+}
+.bestPlaces-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 16px;
+}
+.bestPlaces-row img{
+    border-radius: 10px;
+}
+.bestPlaces-columns-left{
+    position: relative;
+}
+.bestPlaces-columns-title{
+    position: absolute;
+    top: 360px;
+    left: 20px;
+    z-index: 1;
+}
+.bestPlaces-columns-title h5{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0;
+    color: #fff;
+}
+.bestPlaces-columns-title p{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.bestPlaces-star i{
+    color: #FFC107;
+    font-size: 12px;
+}
+.bestPlaces-columns-right{
+    position: relative;
+}
+.bestPlaces-columns-right img{
+    width: 100%;
+    height: 100%;
+}
+.bestPlaces-columns-row{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 0.8fr;
+    grid-gap: 16px;
+}
+.bestPlaces-columns-item{
+    
+}
+
+
